@@ -1,0 +1,164 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Marcus Thompson",
+      "number": "#12",
+      "position": "QB",
+      "age": 28,
+      "height": "6ft",
+      "experience": "6yo",
+      "passingYards": 24500,
+      "rushingYards": 1200,
+      "tackles": 0,
+      "team": "Seattle Seahawks",
+      "allPurposeYards": 25700,
+      "history": [
+        "Drafted in 2017 by the Seattle Seahawks.",
+        "Won the NFL Offensive Rookie of the Year in 2017.",
+        "Led the league in passing yards in 2020.",
+        "Named to the Pro Bowl in 2019 and 2021."
+      ],
+      "imageUrl": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/ulds3ss3d6cirglj8moc"
+    },
+    {
+      "id": 2,
+      "name": "Devon Williams",
+      "number": "#84",
+      "position": "WR",
+      "age": 25,
+      "height": "6ft",
+      "experience": "3yo",
+      "passingYards": 0,
+      "rushingYards": 450,
+      "tackles": 15,
+      "team": "Green Bay Packers",
+      "allPurposeYards": 3200,
+      "history": [
+        "Signed as an undrafted free agent in 2020.",
+        "Recorded his first 100-yard receiving game in 2022.",
+        "Led the team in yards after catch in 2023."
+      ],
+      "imageUrl": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/ulds3ss3d6cirglj8moc"
+    },
+    {
+      "id": 3,
+      "name": "James Rodriguez",
+      "number": "#54",
+      "position": "LB",
+      "age": 27,
+      "height": "6ft",
+      "experience": "5yo",
+      "passingYards": 0,
+      "rushingYards": 0,
+      "tackles": 342,
+      "team": "Miami Dolphins",
+      "allPurposeYards": 0,
+      "history": [
+        "Drafted in the third round of the 2018 NFL Draft.",
+        "Named AFC Defensive Player of the Month in October 2021.",
+        "Led the team in tackles in 2022."
+      ],
+      "imageUrl": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/ulds3ss3d6cirglj8moc"
+    },
+    {
+      "id": 4,
+      "name": "Christopher Lee",
+      "number": "#33",
+      "position": "RB",
+      "age": 24,
+      "height": "6ft",
+      "experience": "2yo",
+      "passingYards": 0,
+      "rushingYards": 2800,
+      "tackles": 5,
+      "team": "Dallas Cowboys",
+      "allPurposeYards": 3500,
+      "history": [
+        "Drafted in 2022 by the Dallas Cowboys.",
+        "Recorded his first 1,000-yard rushing season in 2023.",
+        "Won NFC Offensive Player of the Week in Week 12 of 2023."
+      ],
+      "imageUrl": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/ulds3ss3d6cirglj8moc"
+    },
+    {
+      "id": 5,
+      "name": "Michael Carter",
+      "number": "#87",
+      "position": "TE",
+      "age": 26,
+      "height": "6ft",
+      "experience": "4yo",
+      "passingYards": 0,
+      "rushingYards": 300,
+      "tackles": 25,
+      "team": "Kansas City Chiefs",
+      "allPurposeYards": 2200,
+      "history": [
+        "Drafted in 2020 by the Kansas City Chiefs.",
+        "Scored a game-winning touchdown in the 2022 AFC Championship.",
+        "Named to the Pro Bowl in 2023."
+      ],
+      "imageUrl": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/ulds3ss3d6cirglj8moc"
+    },
+    {
+      "id": 6,
+      "name": "David Wilson",
+      "number": "#21",
+      "position": "CB",
+      "age": 25,
+      "height": "6ft",
+      "experience": "3yo",
+      "passingYards": 0,
+      "rushingYards": 0,
+      "tackles": 175,
+      "team": "Baltimore Ravens",
+      "allPurposeYards": 0,
+      "history": [
+        "Drafted in 2021 by the Baltimore Ravens.",
+        "Led the team in interceptions in 2022.",
+        "Named First-Team All-Pro in 2023."
+      ],
+      "imageUrl": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/ulds3ss3d6cirglj8moc"
+    },
+    {
+      "id": 7,
+      "name": "Robert Anderson",
+      "number": "#76",
+      "position": "OT",
+      "age": 29,
+      "height": "6ft",
+      "experience": "7yo",
+      "passingYards": 0,
+      "rushingYards": 0,
+      "tackles": 0,
+      "team": "San Francisco 49ers",
+      "allPurposeYards": 0,
+      "history": [
+        "Drafted in the first round of the 2016 NFL Draft.",
+        "Started every game since his rookie season.",
+        "Named to the Pro Bowl in 2019 and 2021."
+      ],
+      "imageUrl": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/ulds3ss3d6cirglj8moc"
+    },
+    {
+      "id": 8,
+      "name": "Kevin Martinez",
+      "number": "#99",
+      "position": "DE",
+      "age": 26,
+      "height": "6ft",
+      "experience": "4yo",
+      "passingYards": 0,
+      "rushingYards": 0,
+      "tackles": 198,
+      "team": "Pittsburgh Steelers",
+      "allPurposeYards": 0,
+      "history": [
+        "Drafted in the second round of the 2019 NFL Draft.",
+        "Recorded 10 sacks in the 2022 season.",
+        "Named AFC Defensive Player of the Year in 2023."
+      ],"imageUrl": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/ulds3ss3d6cirglj8moc"
+    }
+  ]
+}

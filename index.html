@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Player Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+
+    <div id="helpModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Features</h2>
+            <ul>
+                <li>Click on the heart to save players to your tracking list.</li>
+                <li>Unselect the heart if you wish to remove the player from your list.</li>
+                <li>Click on "Saved Players List" to view your saved players!</li>
+                <li>Search and filter for your favorite players through different specification.</li>
+                <li>Use the search bar to display your favorite players with their stats!</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="confirmationModal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Confirm Removal</h2>
+            <p>Are you sure you want to remove this player from your saved list?</p>
+            <div class="modal-buttons">
+                <button id="confirmRemove" class="confirm-btn">Yes, Remove</button>
+                <button id="cancelRemove" class="cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="loginPage" class="page">
+        <button class="help-btn" onclick="showHelp()">Click here for help</button>
+        <div class="login-container">
+            <h1>NFL Player Database</h1>
+            <div class="login-form">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button onclick="login()">Login</button>
+                <p id="loginError" class="error"></p>
+            </div>
+            <div class="graph-icon">📈</div>
+        </div>
+    </div>
+
+
+
+
+    <div id="homePage" class="page hidden">
+        <button class="help-btn" onclick="showHelp()">Click here for help</button>
+        <div class="header">
+            <h1>Home Page</h1>
+            <button onclick="logout()" class="logout-btn">Log Out</button>
+        </div>
+        <div class="content">
+            <button onclick="showSearchPage()" class="search-btn">Click here to Search for Players!</button>
+        </div>
+    </div>
+
+
+
+
+    <div id="searchPage" class="page hidden">
+        <button class="help-btn" onclick="showHelp()">Click here for help</button>
+        <button class="home-btn" onclick="showHomePage()">Home</button>
+        <button class="back-btn" onclick="goBack()">Back</button>
+        <div class="header">
+            <h1>Search Players</h1>
+            <div class="header-buttons">
+                <button onclick="viewSavedPlayers()" class="saved-btn">Saved Players List</button>
+            </div>
+        </div>
+        <div class="search-container">
+            <div class="search-controls">
+                <input type="text" id="searchBar" placeholder="Search players...">
+                <div class="filters">
+                    <input type="text" id="teamFilter" placeholder="Team">
+                    <input type="text" id="positionFilter" placeholder="Position">
+                    <input type="number" id="ageFilter" placeholder="Age">
+                    <input type="text" id="experienceFilter" placeholder="Experience (e.g., 3yo)">
+                </div>
+            </div>
+            <div id="searchResults" class="results-container"></div>
+        </div>
+    </div>
+
+
+
+
+    <div id="playerPage" class="page hidden">
+        <button class="help-btn" onclick="showHelp()">Click here for help</button>
+        <button class="home-btn" onclick="showHomePage()">Home</button>
+        <button class="back-btn" onclick="goBack()">Back</button>
+        <div class="header">
+            <h1 id="playerName"></h1>
+        </div>
+        <div class="player-details-container">
+            <div class="player-image-box">
+                <img id="playerImage" src="" alt="Player Image" class="player-image">
+                <button id="removePlayerBtn" class="remove-btn hidden">Remove from Saved</button>
+            </div>
+            <div class="player-info-container">
+                <div class="player-stats">
+                    <h2>Stats</h2>
+                    <p><strong>Number:</strong> <span id="playerNumber"></span></p>
+                    <p><strong>Position:</strong> <span id="playerPosition"></span></p>
+                
+                    <p><strong>Age:</strong> <span id="playerAge"></span></p>
+                    <p><strong>Height:</strong> <span id="playerHeight"></span></p>
+                  
+                    <p><strong>Experience:</strong> <span id="playerExperience"></span></p>
+                    <p><strong>Team:</strong> <span id="playerTeam"></span></p>
+                    <p><strong>Passing Yards:</strong> <span id="playerPassingYards"></span></p>
+                 
+                    <p><strong>Rushing Yards:</strong> <span id="playerRushingYards"></span></p>
+                    <p><strong>Tackles:</strong> <span id="playerTackles"></span></p>
+                    <p><strong>All-Purpose Yards:</strong> <span id="playerAllPurposeYards"></span></p>
+                </div>
+                <div class="history-box">
+                    <h2>History</h2>
+                    <ul id="playerHistory"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
